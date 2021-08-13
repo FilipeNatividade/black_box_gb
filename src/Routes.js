@@ -1,6 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import MenuIndustry from "./Pages/Industry/MenuIndustry";
+import SetupIndustry from "./Pages/Industry/SetupIndustry";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 
@@ -19,6 +20,9 @@ const Routes = () => {
 
       <Route exact path="/menuIndustry">
         <MenuIndustry />
+      </Route>
+      <Route exact path='/setupIndustry'>
+        <SetupIndustry/>
       </Route>
     </Switch>
   );

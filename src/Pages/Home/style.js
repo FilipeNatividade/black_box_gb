@@ -16,11 +16,3 @@ export const SizeContainer = styled.div`
   max-width: 500px;
   width: 100%;
 `;
-export const BackButton = styled.button`
-  background-image: url("./images/back_button.svg");
-  background-color: transparent;
-  height: 64px;
-  margin: 15px;
-  width: 64px;
-`;
-

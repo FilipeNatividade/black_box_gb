@@ -1,7 +1,8 @@
 import { useHistory } from "react-router";
 import MenuButton from "../../Components/MenuButtons";
+import BackButton from "../../Components/BackButton";
 
-import { Container, SizeContainer, BackButton } from "./style";
+import { Container, SizeContainer, } from "./style";
 
 const Home = () => {
   const history = useHistory();
@@ -9,7 +10,7 @@ const Home = () => {
   return (
     <Container>
       <SizeContainer>
-        <BackButton onClick={() => history.push("/")} />
+        <BackButton path="/"/>
         <MenuButton img='/images/big_factory.svg' parag='INDÚSTRIA' path='/menuIndustry'/>
         <MenuButton img='/images/marketplace_img.svg' parag='SUPERMERCADO' path='/menuMarketplace'/>
       </SizeContainer>

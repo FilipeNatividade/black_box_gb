@@ -20,6 +20,7 @@ button, input {
 }
 */
 button{
+    background-color: transparent;
     cursor: pointer;
 } 
 `;
