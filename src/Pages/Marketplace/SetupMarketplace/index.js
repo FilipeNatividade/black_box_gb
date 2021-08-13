@@ -16,26 +16,26 @@ import {
   ButtonRequest,
 } from "./style";
 
-const SetupIndustry = () => {
+const SetupMarketplace = () => {
   return (
     <Container>
       <SizeContainer>
-        <TitlePages text="Setup Indústria" />
-        <BackButton path="/menuIndustry" />
+        <TitlePages text="Setup Supermercados" />
+        <BackButton path="/menuMarketplace" />
         <Title>
-          Número de Indústrias <span>3</span>
+          Número de Supermercados <span>3</span>
         </Title>
         <MainContainer>
           <ButtonsDiv>
-            <ButtonCompanies>Sadia</ButtonCompanies>
+            <ButtonCompanies>Pão de açucar</ButtonCompanies>
             <ButtonDeleteCompanies>X</ButtonDeleteCompanies>
           </ButtonsDiv>
           <ButtonsDiv>
-            <ButtonCompanies>Rica</ButtonCompanies>
+            <ButtonCompanies>Prezunic</ButtonCompanies>
             <ButtonDeleteCompanies>X</ButtonDeleteCompanies>
           </ButtonsDiv>
           <ButtonsDiv>
-            <ButtonCompanies>Perdigão</ButtonCompanies>
+            <ButtonCompanies>Carrefour</ButtonCompanies>
             <ButtonDeleteCompanies>X</ButtonDeleteCompanies>
           </ButtonsDiv>
           <ButtonsDiv>
@@ -118,4 +118,4 @@ const SetupIndustry = () => {
     </Container>
   );
 };
-export default SetupIndustry;
+export default SetupMarketplace;

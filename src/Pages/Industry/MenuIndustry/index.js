@@ -12,10 +12,10 @@ const MenuIndustry = () => {
         <BackButton path="/home" />
         <MenuButton img='/images/big_factory.svg' parag='INDÚSTRIA' path='/menuIndustry'/>
         <Buttons title='Setup' path='/setupIndustry'/>
-        <Buttons title='Importar' path='/setupIndustry'/>
-        <Buttons title='Exportar' path='/menuIndustry'/>
-        <Buttons title='Ranking' path='/menuIndustry'/>
-        <Buttons title='Histórico' path='/menuIndustry'/>
+        <Buttons title='Importar' path='/importIndustry'/>
+        <Buttons title='Exportar' path='/exportIndustry'/>
+        <Buttons title='Ranking' path='/rankingIndustry'/>
+        <Buttons title='Histórico' path='/historicIndustry'/>
       </SizeContainer>
     </Container>
   );

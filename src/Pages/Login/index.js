@@ -18,15 +18,11 @@ import {
 const Login = () => {
   const history = useHistory();
 
-  const [option, setOption] = useState(false);
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
   };
 
-  const handleOption = () => {
-    setOption(!option);
-  };
 
   return (
     <Container>
@@ -44,26 +40,13 @@ const Login = () => {
           <InputLogin type="password" name="password" placeholder="Senha" />
 
           <ContainerButtonLogin>
-            {option === false ? (
               <ButtonLogin onClick={() => history.push("/home")}>
                 Entrar
               </ButtonLogin>
-            ) : (
-              <ButtonLogin onClick={() => history.push("/mapMaketplace")}>
-                Entrar
-              </ButtonLogin>
-            )}
-
             <ButtonLogin onClick={() => history.push("/register")}>
               Cadastrar
             </ButtonLogin>
           </ContainerButtonLogin>
-
-          {option === false ? (
-            <ButtonLogin onClick={handleOption}>industria</ButtonLogin>
-          ) : (
-            <ButtonLogin onClick={handleOption}>mercado</ButtonLogin>
-          )}
         </ContainerInput>
       </InputContainer>
       <ContainerButtonWeb>
